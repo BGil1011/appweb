@@ -21,3 +21,16 @@ img{
     border-radius: .5rem;
     background-color: greenyellow;
 }
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    width: 50%;
+    height: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
