@@ -20,6 +20,7 @@ img{
     border: 1px solid greenyellow;
     border-radius: .5rem;
     background-color: greenyellow;
+    padding: 2rem;
 }
 form {
     display: flex;
@@ -33,4 +34,7 @@ input{
 nav{
     display: flex;
     justify-content: space-around;
+}
+input[type="submit"], nav{
+    margin-top: 1.5rem;
 }
