@@ -14,7 +14,7 @@
         <img src="src/img/omsa.jpg" alt="Imagen OMSA">
         <div class="login">
             <div class="inicio">
-                <form action="" method="get">
+                <form >
                     <label for="user">Usuario</label>
                     <input type="text" id="user" placeholder="Nombre de Ususario">
                     <label for="pass">Password</label>
