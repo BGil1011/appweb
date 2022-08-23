@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded",()=>{
-  window.location("https://omsard.glideapp.io")
-  inicio();
+  window.location("https://omsard.glideapp.io");
+  //inicio();
 });
 
 function inicio(){
