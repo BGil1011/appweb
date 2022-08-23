@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded",()=>{
-  window.location="https://omsard.glideapp.io";
+  window.location="https://omsard.glideapp.io/?full=t";
   //inicio();
 });
 
