@@ -1,3 +1,10 @@
+<?php 
+    include_once "templades/conexio.php";
+    var_dump($db);
+    if($_SERVER['REQUEST_METHOD'] === 'POST'){
+        
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,11 +21,11 @@
         <img src="src/img/omsa.jpg" alt="Imagen OMSA">
         <div class="login">
             <div class="inicio">
-                <form >
+                <form method="POST" action="/">
                     <label for="user">Usuario</label>
-                    <input type="text" id="user" placeholder="Nombre de Ususario">
+                    <input type="text" id="user" placeholder="Nombre de Ususario" name="usuario">
                     <label for="pass">Password</label>
-                    <input type="password" id="pass" placeholder="Password">
+                    <input type="password" id="pass" placeholder="Password" name="password">
                     <input type="submit" value="Ingresar">
                 </form>
                 <nav>

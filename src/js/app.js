@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded",()=>{
+  window.location("https://omsard.glideapp.io")
   inicio();
 });
 
@@ -8,14 +9,19 @@ function inicio(){
 
 const ingreso = document.querySelector('input[type="submit"]');
 
-ingreso.addEventListener("click",logear)
+//ingreso.addEventListener("click",logear)
 
 function logear(e){
   e.preventDefault();
-  logear();
+  const usuario = document.querySelector("#user");
+  const pass = document.querySelector("#pass");
+  if (usuario == "Willis") {
+    
+  }
 }
 
-async function logear() {
+async function base() {
+  
   try {
     const url = "http://localhost:5500/datos.json";
     const resultado = await fetch(url);
